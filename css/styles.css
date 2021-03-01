@@ -10119,8 +10119,9 @@ header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
-  color: black;
-  /*!background-image: url("../assets/img/fondo.jpg"); */
+  /*color: black;*/
+  color: white;
+  background-image: url("../assets/img/fondo.jpg"); 
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
