@@ -19,15 +19,20 @@
                                 <li class="nav-item" >OPTION 1</li>
                             </ul>
                         </li> -->
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="aprende.php">Aprende costos</a>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="aprende.php">Aprende</a>
+                            <!-- <ul>
+                               <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">OPTION 1</li>
+                                <li class="nav-item" >OPTION 1</li>
+                            </ul>-->
+                        </li>
+                       <li class="nav-item"><a class="nav-link js-scroll-trigger" href="aprende.php">Crece</a>
                             <!-- <ul>
                                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">OPTION 1</li>
                                 <li class="nav-item" >OPTION 1</li>
                             </ul>-->
                         </li>
 
-
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="nosotros.php">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Costos</a></li>
                            
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contacto</a></li>
 
