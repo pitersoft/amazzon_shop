@@ -27,6 +27,59 @@
                 <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">INGRESAR</a>
             </div>
         </header>
+
+        <section class="page-section" id="services">
+            <div class="container">
+   <div class="container px-lg-5">
+      <div class="row mx-lg-n5">
+        <div class="col py-3 px-lg-5 border">
+            <div class="card text-center">
+                <img class="card-img-top" src="assets/img/imgProveeNatural.jpg" alt="proveedor natural">
+                <div class="card-body">
+                    <!-- <h4 class="card-title">PROVEEDOR NATURAL</h4> -->
+                    <p class="card-text">
+                        <ul class="list-unstyled" style="text-align: left;">
+                          <li><i class="fa fa-check"></i> COMPRA</li>
+                          <li><i class="fa fa-check"></i> LOGISTICA</li>
+                          <li><i class="fa fa-check"></i> VENDE</li>
+                          <li><i class="fa fa-check"></i> POSICIONAMIENTO DE MARCA</li>
+                          <li><i class="fa fa-check"></i> GARANTIA</li>
+                          <li><i class="fa fa-check"></i> PORTAL DE ACCESO PARA LA PRESENTACION DE SUS PRODUCTOS</li>
+                          <li><i class="fa fa-check"></i> DESCUENTOS</li>
+                        </ul>
+                    </p>
+                    <a href="#" class="btn btn-primary">Seleccionar</a>
+                </div>
+            </div>
+        </div>
+        <div class="col py-3 px-lg-5 border">
+             <div class="card text-center">
+                <img class="card-img-top" src="assets/img/imgProveeMayorista.jpg" alt="proveedor mayorista">
+                <div class="card-body">
+                    <!-- <h4 class="card-title">PROVEEDOR MAYORISTA</h4> -->
+                    <p class="card-text">
+                        <ul class="list-unstyled" style="text-align: left;">
+                          <li>&nbsp;</li>
+                          <li>&nbsp;</li>
+                          <li><i class="fa fa-check"></i> VENDE</li>
+                          <li><i class="fa fa-check"></i> POSICIONAMIENTO DE MARCA</li>
+                          <li><i class="fa fa-check"></i> NCREMENTO EN SUS VENTAS</li>
+                          <li><i class="fa fa-check"></i> CAPTACION DE CLIENTES POTENCIALES</li>
+                          <li>&nbsp;</li>
+                          <li>&nbsp;</li>
+                        </ul>
+                    </p>
+                    <a href="#" class="btn btn-primary">Seleccionar</a>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+            </div>
+
+        </section>
+
         <!-- Services-->
         <section class="page-section" id="services">
             <div class="container">
@@ -70,6 +123,9 @@
                 </div>
             </div>
         </section>
+
+
+
         <section class="page-section" id="services">
             <div class="container">
                 <div class="text-center">

@@ -33,8 +33,14 @@
                         </li>
 
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Costos</a></li>
-                           
+                        
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contacto</a></li>
+                        
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><button type="button" class="btn btn-warning btn-sm">Ingresar</button></a>
+                        </li>
+                           
 
                     </ul>
                 </div>
