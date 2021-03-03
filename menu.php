@@ -5,31 +5,47 @@
                     Menu
                     <i class="fas fa-bars ml-1"></i>
                 </button>
+
+
+
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php">Inicio</a>
-                           <!-- <ul>
-                               <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">OPTION 1</li>
-                                <li class="nav-item" >OPTION 1</li>
-                            </ul> -->
+                        <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php">Inicio</a> -->
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="index.php" id="navbarInicio" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Inicio
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarInicio">
+                              <a class="dropdown-item" href="#">Como vender en Sonder To Go</a>
+                              <a class="dropdown-item" href="#">Que vender en Sonder To Go</a>
+                              <a class="dropdown-item" href="#">Envío y cumplimiento</a>
+                              <a class="dropdown-item" href="#">Costos de venta</a>
+                            </div>
+                        </li>                               
                         </li>
-<!--                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Crear cuenta</a>
-                         <ul>
-                               <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">OPTION 1</li>
-                                <li class="nav-item" >OPTION 1</li>
-                            </ul>
-                        </li> -->
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="aprende.php">Aprende</a>
-                            <!-- <ul>
-                               <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">OPTION 1</li>
-                                <li class="nav-item" >OPTION 1</li>
-                            </ul>-->
+                        <li class="nav-item dropdown">
+                            <!-- <a class="nav-link js-scroll-trigger" href="aprende.php">Aprende</a> -->
+                            <a class="nav-link dropdown-toggle" href="aprende.php" id="navbarAprende" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Aprende
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarAprende">
+                              <a class="dropdown-item" href="#">Se el mejor vendedor</a>
+                              <a class="dropdown-item" href="#">Preguntas frecuentes</a>
+                            </div>                            
                         </li>
-                       <li class="nav-item"><a class="nav-link js-scroll-trigger" href="aprende.php">Crece</a>
-                            <!-- <ul>
-                               <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">OPTION 1</li>
-                                <li class="nav-item" >OPTION 1</li>
-                            </ul>-->
+                       <li class="nav-item dropdown">
+                            <!-- <a class="nav-link js-scroll-trigger" href="aprende.php">Crece</a> -->
+                            <a class="nav-link dropdown-toggle" href="aprende.php" id="navbarCrece" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Crece
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarCrece">
+                              <a class="dropdown-item" href="#">Construye una tienda online</a>
+                              <a class="dropdown-item" href="#">Lanza tu propia marca</a>
+                              <a class="dropdown-item" href="#">Cumplimientos de Sonder To Go</a>
+                              <a class="dropdown-item" href="#">Anuncie en Sonder To Go</a>
+                            </div>                             
+
                         </li>
 
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Costos</a></li>

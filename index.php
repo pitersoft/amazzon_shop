@@ -22,8 +22,14 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
-                <div class="masthead-subheading">BIENVENIDO</div>
-                <div class="masthead-heading text-uppercase">Bienvenido a <br> Sonder to Go</div>
+                <!-- <div class="masthead-subheading">BIENVENIDO</div> -->
+                <!-- <div class="masthead-heading text-uppercase"> -->
+
+<!--                 <div class="masthead-subheading text-uppercase">
+                    Encuentra a los mejores <br> proveedores y vende <br> en Sonder Shop
+                </div> -->
+                    <h1 class="text-uppercase">Encuentra a los mejores <br> proveedores y vende <br> en Sonder Shop</h1>
+                    <br>
                 <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">INGRESAR</a>
             </div>
         </header>
@@ -171,7 +177,7 @@
         </section>
 
         <!-- Portfolio Grid-->
-        <section class="page-section bg-light" id="portfolio">
+<!--         <section class="page-section bg-light" id="portfolio">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Categorías</h2>
@@ -264,7 +270,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- About-->
         <!--<section class="page-section" id="about">
             <div class="container">
@@ -331,19 +337,14 @@
         <section class="page-section bg-light" id="team">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Mantente conectado</h2>
+                    <h2 class="section-heading text-uppercase">¿Te gustaría saber más de Sonder To Go?</h2>
                 </div>
                 <div class="text-center">
                 <div class="row">
                    
                     <div class="col-sm-12 align-self-center text-center">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/sonder_shop01.jpg" alt="" />
-                            <h4>Sonder Shop</h4>
-                            <p class="text-muted">Pregunta sobre ventas</p>
-                            <a class="btn btn-dark btn-social mx-3" href="#!"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-3" href="#!"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-3" href="#!"><i class="fab fa-linkedin-in"></i></a>
+
                         </div>
                     </div>
                    
@@ -351,8 +352,9 @@
                 </div>
                 <div class="row" >
                     <div class="col-sm-12 align-self-center text-center">
-                    <form id="contactForm" name="sentMessage" novalidate="novalidate">
-                    <div class="align-items-stretch mb-5">
+                        <iframe width="720" height="405" src="https://www.youtube.com/embed/0URuIXEpCJQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <!-- <form id="contactForm" name="sentMessage" novalidate="novalidate"> -->
+<!--                     <div class="align-items-stretch mb-5">
                         <div class="col-lg-12 align-self-center text-center">
                             
                             <div class="form-group">
@@ -365,15 +367,15 @@
                     <div class="text-center">
                         <div id="success"></div>
                         <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Envía un mensaje</button>
+                    </div> -->
+                <!-- </form> -->
                     </div>
-                </div>
-                </form>
                 </div>
             </div>
         </div>
         </section>
         <!-- Clients-->
-        <div class="py-5">
+<!--         <div class="py-5">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 col-sm-6 my-3">
@@ -390,13 +392,14 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Contact-->
         <section class="page-section" id="contact">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contáctanos</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase">MANTENTE CONECTADO</h2>
+                    <h4 class="section-heading text-muted">Inscribete para obtener noticias y descuentos de nuestros proveedores</h4>
+<!--                     <h3 class="section-subheading text-muted">Inscribete para obtener noticias y descuentos de nuestros proveedores</h3> -->
                 </div>
                 <form id="contactForm" name="sentMessage" novalidate="novalidate">
                     <div class="row align-items-stretch mb-5">
@@ -414,16 +417,17 @@
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6" style="text-align: center; padding: 50px 0px;">
                             <div class="form-group form-group-textarea mb-md-0">
-                                <textarea class="form-control" id="message" placeholder="Mensaje *" required="required" data-validation-required-message="Porfavor, dejenos su mensaje."></textarea>
-                                <p class="help-block text-danger"></p>
+ <!--                                <textarea class="form-control" id="message" placeholder="Mensaje *" required="required" data-validation-required-message="Porfavor, dejenos su mensaje."></textarea>
+                                <p class="help-block text-danger"></p> -->
+                                <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Enviar</button>
                             </div>
                         </div>
                     </div>
                     <div class="text-center">
                         <div id="success"></div>
-                        <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Envía un mensaje</button>
+<!--                         <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Envía un mensaje</button> -->
                     </div>
                 </form>
             </div>
